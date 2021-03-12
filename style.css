@@ -1,0 +1,97 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------------------------------------------------------HEADER---------------------------------------------------------------- */
+.header
+{
+    height: 815px;
+    width: 100%;
+    background-repeat: no-repeat no-repeat;
+    background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
+    background-size: 100% 700px;
+    padding-top: 2em;
+}
+
+.header__nav__
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav__list
+{
+    display: grid;
+    grid-template-columns: 14% auto auto auto auto auto auto 14%;
+    list-style-type: none;
+    margin-top: 0;
+    width: 86%;
+    margin-left: 7%;
+    text-align: center;
+    padding-left: 0;
+    gap: 0.3em 0.3em;
+}
+
+.nav__link
+{
+    color: #533738;
+    text-decoration: none;
+}
+
+.nav__item__left
+{
+    display: flex;
+    text-align: right;
+}
+
+.header__block
+{
+    margin-left: 7%;
+    margin-top: 4em;
+    width: 500px;
+}
+
+.header__heading
+{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+    margin-bottom: 0;
+}
+
+.header__p
+{
+    margin-top: 1.2em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin-bottom: 3em;
+}
+
+.header__button
+{
+    background: #CC8B86;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738
+}
