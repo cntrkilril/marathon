@@ -2,13 +2,14 @@ body
 {
     margin: 0;
     padding: 0;
+    background: #E5E5E5;
 }
 
 
 /* ----------------------------------------------------------------HEADER---------------------------------------------------------------- */
 .header
 {
-    height: 815px;
+    height: 670px;
     width: 100%;
     background-repeat: no-repeat no-repeat;
     background-image: url(img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png);
@@ -94,4 +95,85 @@ body
     font-size: 20px;
     line-height: 24px;
     color: #533738
+}
+
+
+
+/* ----------------------------------------------------------------SECTION 1---------------------------------------------------------------- */
+.section1
+{
+
+}
+
+.section1__heading
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.section1__block1
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 86%;
+    margin-left: 7%;
+    margin-bottom: 2em;
+}
+
+.section1__p1
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+    margin-top:0;
+}
+
+.section1__block2
+{
+    background: #8D7370;
+    height: 273px;
+    width:100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.section1__block2__item
+{
+    justify-self: center;
+    align-self: center;
+}
+
+.section1__block2__item__p1
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.section1__block2__item__p2
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
 }
