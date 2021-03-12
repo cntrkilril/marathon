@@ -315,6 +315,7 @@ body
     gap: 4%;
     width: 86%;
     margin-left: 7%;
+    margin-top: 3em;
 }
 
 .section3__block2__item
@@ -354,4 +355,46 @@ body
     text-align: center;
     color: #533738;
     text-align: center;
+}
+
+
+
+/* ----------------------------------------------------------------SECTION 4---------------------------------------------------------------- */
+
+.section4__block
+{
+    display: grid;
+    grid-template-columns: 72px 40% 40% 72px;
+    gap: 4%;
+    width: 72%;
+    margin-left: 14%;
+    align-items: center;
+}
+
+.section4__heading
+{
+    text-align: center;
+}
+
+.section4__block__item__lr
+{
+    background: url(img/Ellipse\ 4.2.png);
+    width: 72px;
+    height: 72px;
+}
+
+.section4__img
+{
+    margin-left: 20px;
+    margin-top: 29px;
+}
+
+.section4
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
 }
